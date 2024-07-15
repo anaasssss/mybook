@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+body{
+    direction: rtl;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    height: 126px;
+    width: 100%;
+    background-color: #03DAC6;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.logo{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 22px;
+}
+
+.lst{
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 610px;
+}
+
+.in{
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+.lih{
+    display: inline;
+    width: 119px;
+    height: 28px;
+}
+
+li .uh:hover{
+    animation-name: btn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    transition: 0.5s;
+    color: #03DAC6;
+}
+
+@keyframes btn {
+    25%{
+        background-image: linear-gradient(to right , #03DAC6 5% , #018786 15% ) ;
+    }
+    50%{
+        background-image: linear-gradient(to right , #018786 20% , #03DAC6 30% , #03DAC6 35% , #018786 45%) ;
+    }
+    75%{
+        background-image: linear-gradient(to right , #018786 50% , #03DAC6 60% , #03DAC6 65% , #018786 75%) ;
+    }
+    100%{
+        background-image: linear-gradient(to right , #018786 80% , #03DAC6 90% , #03DAC6 95% , #018786 100%) ;
+    }
+}
+
+li a{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 23px;
+}
+
+li label{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+li a img{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.ihome{
+    width: 19px;
+}
+
+.isection{
+    width: 14px;
+}
+
+.iauthors{
+    width: 22px;
+}
+
+.ilist{
+    width: 13px;
+}
+
+.ilogin{
+    width: 17px;
+}
+
+.isignin{
+    width: 17px;
+}
+
+footer{
+    background-color: #03DAC6;
+    margin-top: -300px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    top: 350px;
+    height: 200px;
+}
+
+.logof{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 58.5px;
+}
+
+.uf{
+    color: #018786;
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    right: 180px;
+    width: 160px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sicon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.sm{
+    position: absolute;
+    left: 140px;
+    top: 25px;
+}
+
+.ply{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 61px;
+}
+
+.aps{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 117px;
+}
+
+.bookx{
+    margin-top: 126px;
+    width: 100%;
+    height: 350px;
+    margin-top: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.ord{
+    background-color: #03dac527;
+    width: 380px;
+    height: 270px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.pin{
+    margin-top: 40px;
+}
+
+.pin div{
+    margin-bottom: 23px;
+    margin-right: -10px;
+    font-size: large;
+}
+
+.put{
+    width: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-color: #018786;
+    border-style: solid;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.puut{
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    margin-right: 15px;
+}
+
+
+.book{
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    font-size: small;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+span{
+    color: #018786;
+}
+
+.imgbok{
+    width: 130px;
+    height: 190px;
+}
+
+.imgstr{
+    width: 79px;
+    height: 13px;
+}
+
+.container{
+    perspective: 600px;
+}
+
+.b{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform-origin: right center;
+}
+
+.b:hover{
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.b .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.b .back{
+    transform: rotateY(180deg);
+}
+
+.dtls{
+    margin-top: 180px;
+    color: #000000;
+}
+
+.ln{
+    width: 1300px;
+    margin-right: 23px;
+    background-color: #018786;
+    height: 1px;
+}
+
+.cont{
+    margin-top: 40px;
+    background-color: #03dac527;
+    width: 900px;
+    margin-right: 100px;
+    height: 320px;
+    position: relative;
+    border-radius: 11px;
+    display: flex;
+}
+
+.puut1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 98px;
+    margin-right: 15px;
+}
+
+.pin1{
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.pin1 div{
+    margin-bottom: 23px;
+    margin-right: -10px;
+    font-size: large;
+}
+
+.lnn{
+    width: 1px;
+    height: 200px;
+    margin-top: 85px;
+    margin-right: 90px;
+    background-color: #018786;
+}
+
+.way{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 60px;
+    font-size: large;
+}
+
+.way div{
+    margin-left: 20px;
+}
+
+.btcont{
+    background-color: #018786;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: -130px;
+    color: #FFFFFF;
+}
+.btbc{
+    background-color: #018786;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 150px;
+    color: #FFFFFF;
+}
+
+.not{
+    margin-top: 260px;
+    margin-right: -490px;
+}
+
+.non{
+    background-color: #018786;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: -850px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #018786;
+}
+
+::-webkit-scrollbar-track {
+    background: #03DAC6;
+    border-bottom:transparent ;
+}
+
+
+.chkply{
+    z-index: 1;
+    display: none;
+}
+
+.chkply:checked + .shado2 {
+    display: block;
+}
+
+.shado2{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.bxwrn{
+    background-color: #FF9966;
+    border-color: #CC3300;
+    border-style: solid;
+    width: 386px;
+    height: 89px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-right: 450px;
+    color: #CC3300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.cls2{
+    color: #FFFFFF;
+    background-color: #CC3300;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.shado2 button{
+    border-color: transparent;
+    border-radius: 100px;
+    width: 40px;
+    height: 33px;
+    position: relative;
+    top: -110px;
+    right: 430px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+
+.shado3{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.chkmre{
+    z-index: 1;
+    display: none;
+}
+
+.mnumre{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #018786;
+    background-color: #FFFFFF;
+    margin-right: 450px;
+    margin-top: 40px;
+}
+
+.chkmre:checked + .shado3 {
+    display: block;
+}
+
+.opon{
+    background-color: transparent;
+    color: #018786;
+    height: 100px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opon a{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #018786;
+    font-size: x-large;
+}
+
+.bt{
+    background-color: #03DAC6;
+    height: 1px;
+}
+.opon label{
+    background-color: transparent;
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+.bt{
+    background-color: #03DAC6;
+    height: 1px;
+}
+.opon label{
+    background-color: transparent;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.user{
+    background-color: #FFFFFF;
+    border-color: #018786;
+    color: #018786;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+
+.btnin{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+.mnin{
+    position: absolute;
+    left: 90px;
+    top: 101px;
+    background-color: #FFFFFF;
+    border-color: #018786;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    display: none;
+}
+
+.mnin div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #018786;
+}
+
+.mnin div:hover{
+    background-color: #03dac541;
+}
+
+.btnin:checked + .mnin{
+    display: flex;
+    flex-direction: column;
+}
+
+.str{
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}

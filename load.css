@@ -1,0 +1,153 @@
+.load{
+    background-color: #03DAC6;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 370px;
+    margin-top: -25px;
+    margin-left: -25px;
+    border-radius: 50%;
+    border: 5px #018786 solid;
+    transform: rotate(1turn);
+    border-left-color: transparent ;
+    animation-name:load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes load {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360);
+    }
+}
+
+
+.chkply{
+    z-index: 1;
+    display: none;
+}
+
+.chkply:checked + .shado2 {
+    display: block;
+}
+
+.shado2{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.bxwrn{
+    background-color: #FF9966;
+    border-color: #CC3300;
+    border-style: solid;
+    width: 386px;
+    height: 89px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-right: 450px;
+    color: #CC3300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.cls2{
+    color: #FFFFFF;
+    background-color: #CC3300;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.shado2 button{
+    border-color: transparent;
+    border-radius: 100px;
+    width: 40px;
+    height: 33px;
+    position: relative;
+    top: -110px;
+    right: 430px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+
+.shado3{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.chkmre{
+    z-index: 1;
+    display: none;
+}
+
+.mnumre{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #018786;
+    background-color: #FFFFFF;
+    margin-right: 450px;
+    margin-top: 40px;
+}
+
+.chkmre:checked + .shado3 {
+    display: block;
+}
+
+.opon{
+    background-color: transparent;
+    color: #018786;
+    height: 100px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opon a{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #018786;
+    font-size: x-large;
+}
+
+.bt{
+    background-color: #03DAC6;
+    height: 1px;
+}
+.opon label{
+    background-color: transparent;
+    margin-left: 0px;
+    width: 100%;
+}

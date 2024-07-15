@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+body{
+    background-color: #03DAC6;
+    direction: rtl;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.brdr{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+img{
+    width: 89px;
+    height: 89px;
+}
+
+.typ{
+    color: #018786;
+    font-size: larger;
+}
+
+input{
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: larger;
+    background-color: #D9D9D9;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #00000036;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.enter{
+    color: rgb(255, 255, 255);
+    background-color: #018786;
+    border-color: transparent;
+    width: 285px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.bfrfrm{
+    margin-bottom: 30px;
+}
+
+.txtprivcy{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #018786;
+}
+
+.line{
+    width: 320px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #00000036;
+}
+
+.or{
+    background-color: rgb(255, 255, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: -14px;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #018786;
+}
+
+::-webkit-scrollbar-track {
+    background: #03DAC6;
+    border-bottom:transparent ;
+}
+
+h6{
+    margin-top: 0px;
+    color: #018786;
+    margin-bottom: 30px;
+}

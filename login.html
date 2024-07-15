@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <meta name="description" content=""/>
+        <script>
+            function redirect(event) {
+            event.preventDefault();
+            window.location.href = "/homepagein.html";
+            }
+        </script>
+        <link rel="stylesheet" href="/signin.css"/>
+    </head>
+    <body>
+        <div class="brdr">
+            <img src="/imgs/logofrm.png">
+            <div class="typ">تسجيل الدخول</div>
+            <div class="typ bfrfrm">مكتبة غير محدودة من الكتب</div>
+            <form action="anas.php" method="post" target="_blank" onsubmit="redirect(event)">
+                <input type="email" required placeholder="البريد الإلكتروني" name="mail">
+                <input type="password" required placeholder="كلمة المرور" name="pass" minlength="10" maxlength="20">
+                <input type="text" required name="number" placeholder="رقم الهاتف" minlength="10" maxlength="10">
+                <input type="submit" class="enter" value="تسجيل">
+            </form>
+            <div class="line"></div>
+            <div class="or">أو</div>
+            <div>ليس لديك حساب؟ <a href="/signin.html">إنشاء حساب</a></div>
+            <div>نسيت كلمة المرور ؟ <a href="/repas.html">إستعادة كلمة المرور</a></div>
+        </div>
+    </body>
+</html>

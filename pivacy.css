@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+body{
+    direction: rtl;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    height: 126px;
+    width: 100%;
+    background-color: #03DAC6;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.logo{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 22px;
+}
+
+.lst{
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 610px;
+}
+
+.in{
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+.lih{
+    display: inline;
+    width: 119px;
+    height: 28px;
+}
+
+li .uh:hover{
+    animation-name: btn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    transition: 0.5s;
+    color: #03DAC6;
+}
+
+@keyframes btn {
+    25%{
+        background-image: linear-gradient(to right , #03DAC6 5% , #018786 15% ) ;
+    }
+    50%{
+        background-image: linear-gradient(to right , #018786 20% , #03DAC6 30% , #03DAC6 35% , #018786 45%) ;
+    }
+    75%{
+        background-image: linear-gradient(to right , #018786 50% , #03DAC6 60% , #03DAC6 65% , #018786 75%) ;
+    }
+    100%{
+        background-image: linear-gradient(to right , #018786 80% , #03DAC6 90% , #03DAC6 95% , #018786 100%) ;
+    }
+}
+
+li a{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 23px;
+}
+
+li label{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+li a img{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.ihome{
+    width: 19px;
+}
+
+.isection{
+    width: 14px;
+}
+
+.iauthors{
+    width: 22px;
+}
+
+.ilist{
+    width: 13px;
+}
+
+.ilogin{
+    width: 17px;
+}
+
+.isignin{
+    width: 17px;
+}
+
+footer{
+    background-color: #03DAC6;
+    margin-top: -300px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    top: 350px;
+    height: 200px;
+}
+
+.logof{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 58.5px;
+}
+
+.uf{
+    color: #018786;
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    right: 180px;
+    width: 160px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sicon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.sm{
+    position: absolute;
+    left: 140px;
+    top: 25px;
+}
+
+.ply{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 61px;
+}
+
+.aps{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 117px;
+}
+
+.bookx{
+    margin-top: 200px;
+    background-color: #018786;
+    font-size: x-large;
+    width: 200px;
+    margin-right: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.cont{
+    margin-top: 40px;
+    background-color: #03dac527;
+    width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 16px;
+    height: 920px;
+    position: relative;
+    border-radius: 11px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 1.6;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #018786;
+}
+
+::-webkit-scrollbar-track {
+    background: #03DAC6;
+    border-bottom:transparent ;
+}
+
+
+.chkply{
+    z-index: 1;
+    display: none;
+}
+
+.chkply:checked + .shado2 {
+    display: block;
+}
+
+.shado2{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.bxwrn{
+    background-color: #FF9966;
+    border-color: #CC3300;
+    border-style: solid;
+    width: 386px;
+    height: 89px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-right: 450px;
+    color: #CC3300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.cls2{
+    color: #FFFFFF;
+    background-color: #CC3300;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.shado2 button{
+    border-color: transparent;
+    border-radius: 100px;
+    width: 40px;
+    height: 33px;
+    position: relative;
+    top: -110px;
+    right: 430px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+
+.shado3{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.chkmre{
+    z-index: 1;
+    display: none;
+}
+
+.mnumre{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #018786;
+    background-color: #FFFFFF;
+    margin-right: 450px;
+    margin-top: 40px;
+}
+
+.chkmre:checked + .shado3 {
+    display: block;
+}
+
+.opon{
+    background-color: transparent;
+    color: #018786;
+    height: 100px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opon a{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #018786;
+    font-size: x-large;
+}
+
+.bt{
+    background-color: #03DAC6;
+    height: 1px;
+}
+.opon label{
+    background-color: transparent;
+    margin-left: 0px;
+    width: 100%;
+}

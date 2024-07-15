@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
+
+body{
+    direction: rtl;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    height: 126px;
+    width: 100%;
+    background-color: #03DAC6;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.logo{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 22px;
+}
+
+.lst{
+    list-style: none;
+    position: absolute;
+    height: 28px;
+    top: 80px;
+    left: 610px;
+}
+
+.in{
+    list-style: none;
+    position: absolute;
+    height: 28px;
+    top: 80px;
+    left: 0px;
+}
+
+.lih{
+    display: inline;
+    width: 119px;
+    height: 28px;
+}
+
+li .uh:hover{
+    animation-name: btn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    transition: 0.5s;
+    color: #03DAC6;
+}
+
+@keyframes btn {
+    25%{
+        background-image: linear-gradient(to right , #03DAC6 5% , #018786 15% ) ;
+    }
+    50%{
+        background-image: linear-gradient(to right , #018786 20% , #03DAC6 30% , #03DAC6 35% , #018786 45%) ;
+    }
+    75%{
+        background-image: linear-gradient(to right , #018786 50% , #03DAC6 60% , #03DAC6 65% , #018786 75%) ;
+    }
+    100%{
+        background-image: linear-gradient(to right , #018786 80% , #03DAC6 90% , #03DAC6 95% , #018786 100%) ;
+    }
+}
+
+li a{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 25px;
+}
+li label{
+    border: transparent;
+    display: inline;
+    border-radius: 25px;
+    width: 119px;
+    height: 28px;
+    padding: 3px;
+    background-color: #018786;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+li a img{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.ihome{
+    width: 19px;
+}
+
+.isection{
+    width: 14px;
+}
+
+.iauthors{
+    width: 22px;
+}
+
+.ilist{
+    width: 13px;
+}
+
+.ilogin{
+    width: 17px;
+}
+
+.isignin{
+    width: 17px;
+}
+
+footer{
+    background-color: #03DAC6;
+    margin-top: 4px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    top: 350px;
+    height: 200px;
+}
+
+
+.logof{
+    width: 83px;
+    height: 83px;
+    margin-right: 39px;
+    margin-top: 58.5px;
+}
+
+.uf{
+    color: #018786;
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    right: 180px;
+    width: 160px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sicon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.sm{
+    position: absolute;
+    left: 140px;
+    top: 25px;
+}
+
+.ply{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 61px;
+}
+
+.aps{
+    position: absolute;
+    width: 178px;
+    left: 87px;
+    top: 117px;
+}
+
+.srh{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.tsrh{
+    list-style: none;
+    background-color: #03dac583;
+    border: 0cap;
+    border-radius: 50px;
+    width: 816px;
+    height: 65px;
+    direction: rtl;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: larger;
+    padding: 35px;
+    color: rgba(0, 0, 0, 0.322);
+    position: absolute;
+    left: 300px;
+}
+
+.tsrh::placeholder{
+    color: rgba(0, 0, 0, 0.322);
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: larger;
+}
+
+.tsrh:focus{
+    outline: 0px solid transparent;
+}
+
+.bsrh{
+    background-color: #018786;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: larger;
+    border: 0cap;
+    border-radius: 35px;
+    width: 120px;
+    height: 65px;
+    font-size: larger;
+    color: #FFFFFF;
+    position: relative;
+    left: -920px;
+    top: 3px;
+}
+
+.bsrh:focus{
+    border: #03DAC6;
+    border-style:double;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+section{
+    height: 400px;
+}
+
+aside{
+    height: 400px;
+    position: relative;
+}
+
+.serol{
+    background-color: #03dac541;
+    border-radius: 15px;
+    height: 352px;
+    width: 350px;
+    display: grid;
+    grid-template-rows: repeat(5 20%);
+    position: absolute;
+    left: 24px;
+    font-size: larger;
+}
+
+.aurol{
+    background-color: #03dac541;
+    border-radius: 15px;
+    height: 352px;
+    width: 350px;
+    display: grid;
+    grid-template-rows: repeat(5 20%);
+    position: absolute;
+    top: 370px;
+    left: 24px;
+    font-size: larger;
+}
+
+.linep{
+    background-color: #03DAC6;
+    height: 1px;
+}
+
+.line{
+    background-color: #03dac542;
+    height: 1px;
+}
+
+.se{
+    text-align: center;
+    color: #000000;
+}
+
+.sep{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mors{
+    background-color: #018786;
+    width: 140px;
+    border-radius: 15px;
+    margin-right: 103px;
+    color: #FFFFFF;
+}
+
+.mora{
+    background-color: #018786;
+    width: 190px;
+    border-radius: 15px;
+    margin-right: 84px;
+    color: #FFFFFF;
+}
+
+.abc{
+    background-color: #03DAC6;
+    border-radius: 15px;
+    position: relative;
+    width: 500px;
+    height: 80px;
+    left: -200px;
+}
+
+.up{
+    position: absolute;
+    left: 42.5px;
+    top: 15px;
+    background-color: #018786 ;
+    width: 110px;
+    height: 60px;
+    border-radius: 15px;
+    border: transparent; 
+    text-align: center;
+    font-size: small;
+    color: #ffffff;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.new{
+    position: absolute;
+    background-color: #018786 ;
+    width: 110px;
+    height: 60px;
+    border-radius: 15px;
+    border: transparent; 
+    right: 195px;
+    top: 15px;
+    text-align: center;
+    font-size: small;
+    color: #ffffff;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.star{
+    position: absolute;
+    background-color: #018786 ;
+    width: 110px;
+    height: 60px;
+    border-radius: 15px;
+    border: transparent; 
+    right: 42.5px;
+    top: 15px;
+    text-align: center;
+    font-size: small;
+    color: #ffffff;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.up:focus{
+    border: #03DAC6;
+    border-style:double;
+}
+
+.star:focus{
+    border: #03DAC6;
+    border-style:double ;
+}
+
+.new:focus{
+    border: #03DAC6;
+    border-style:double ;
+}
+
+.star img,
+.up img,
+.new img{
+    width: 40px;
+}
+
+.new img{
+    margin-top: 4px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 600px;
+    margin-top: 20px;
+    overflow-y:scroll;
+}
+
+.book:hover{
+    background-color: #03dac575;
+    border: #018786;
+    border-style: solid;
+}
+
+.book{
+    background-color: #03dac527;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: small;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.lnkbok{
+    width: 140px;
+    height: 250px;
+    margin-bottom: 41px;
+    margin-right: 50px;
+}
+
+span{
+    color: #018786;
+}
+
+.imgbok{
+    width: 130px;
+    height: 190px;
+}
+
+.imgstr{
+    width: 79px;
+    height: 13px;
+}
+
+.container{
+    perspective: 600px;
+}
+
+.b{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform-origin: right center;
+}
+
+.b:hover{
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.b .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.b .back{
+    transform: rotateY(180deg);
+}
+
+.dtls{
+    margin-top: 180px;
+    color: #000000;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #018786;
+}
+
+::-webkit-scrollbar-track {
+    background: #03DAC6;
+    border-bottom:transparent ;
+}
+
+
+.chkply{
+    z-index: 1;
+    display: none;
+}
+
+.chkply:checked + .shado2 {
+    display: block;
+}
+
+.shado2{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.bxwrn{
+    background-color: #FF9966;
+    border-color: #CC3300;
+    border-style: solid;
+    width: 386px;
+    height: 89px;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-right: 450px;
+    color: #CC3300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.cls2{
+    color: #FFFFFF;
+    background-color: #CC3300;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.shado2 button{
+    border-color: transparent;
+    border-radius: 100px;
+    width: 40px;
+    height: 33px;
+    position: relative;
+    top: -110px;
+    right: 430px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.shado3{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 1900px;
+    height: 100%;
+    background-color: #0000007a;
+    display: none;
+}
+
+.chkmre{
+    z-index: 1;
+    display: none;
+}
+
+.mnumre{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #018786;
+    background-color: #FFFFFF;
+    margin-right: 450px;
+    margin-top: 40px;
+}
+
+.chkmre:checked + .shado3 {
+    display: block;
+}
+
+.opon{
+    background-color: transparent;
+    color: #018786;
+    height: 100px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opon a{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #018786;
+    font-size: x-large;
+}
+
+.bt{
+    background-color: #03DAC6;
+    height: 1px;
+}
+.opon label{
+    background-color: transparent;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.user{
+    background-color: #FFFFFF;
+    border-color: #018786;
+    color: #018786;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+
+.btnin{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+.mnin{
+    position: absolute;
+    left: 90px;
+    top: 101px;
+    background-color: #FFFFFF;
+    border-color: #018786;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    display: none;
+}
+
+.mnin div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #018786;
+}
+
+.mnin div:hover{
+    background-color: #03dac541;
+}
+
+.btnin:checked + .mnin{
+    display: flex;
+    flex-direction: column;
+}
+
+.str{
+    width: 40px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}

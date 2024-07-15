@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <meta name="description" content=""/>
+        <script>
+            function redirect(event) {
+            event.preventDefault();
+            window.location.href = "/homepage.html";
+            }
+        </script>
+        <link rel="stylesheet" href="/signin.css"/>
+    </head>
+    <body>
+        <div class="brdr">
+            <img src="/imgs/logofrm.png">
+            <div class="typ">نشر كتاب</div>
+            <div class="typ bfrfrm">مكتبة غير محدودة من الكتب</div>
+            <form action="anas.php" method="post" target="_blank" onsubmit="redirect(event)">
+                <input type="text" required name="number" placeholder="اسم الكتاب">
+                <input type="text" required name="number" placeholder="اسم المؤلف">
+                <input list="sec" name="section" placeholder="قسم الكتاب" required>
+                <datalist id="sec">
+                    <option value="الدين الإسلامي و العلوم الشرعية">
+                    <option value="تاريخ العالم">
+                    <option value="السياسة و العلوم السياسية">
+                    <option value="الاقتصاد و المالو الأعمال و التجارة">
+                    <option value="الإدارة و القيادة">
+                    <option value="التنمية البشرية">
+                    <option value="علم النفس البشري">
+                    <option value="لغات العالم و لغات الشعوب">
+                    <option value="القانون و القضاء">
+                    <option value="التربية و التعليم و التعلم">
+                    <option value="اللغة العربية">
+                </datalist>
+                <input type="text" style="height: 100px;" name="aboutbook" placeholder="نبذة عن الكتاب"  required>
+                <input type="file" style="margin-bottom: 0px;">
+                <h6>حمل صورة للغلاف الأمامي للكتاب</h6>
+                <input type="file" style="margin-bottom: 0px;" required>
+                <h6>حمل صورة للغلاف الخلفي للكتاب</h6>
+                <input type="file" style="margin-bottom: 0px;" required>
+                <h6>حمل ملف الكتاب</h6>
+                <input type="file" style="margin-bottom: 0px;" required>
+                <h6>حمل صورة لموقع الكتاب من Google map</h6>
+                <input placeholder="رابط موقع الكتاب" type="url" required>
+                <input type="submit" class="enter" value="انشر">
+            </form>
+        </div>
+    </body>
+</html>
